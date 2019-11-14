@@ -1,9 +1,16 @@
-language: node_js
+#https://github.com/manjot98
 
-node_js:
-  - "10.9.0"
-
-cache: npm
-
-before_install:
+language: node_js 
+ 
+node_js:   - "10.9.0" 
+ 
+cache: npm 
+ 
+before_install:   
+ - mkdir public   
+ - ls -la
+ 
+ install:
+  - ls -la
+  - npm install
   - ls -la
