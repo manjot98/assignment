@@ -7,4 +7,3 @@ cache: npm
 
 before_install:
   - ls -la
-  
