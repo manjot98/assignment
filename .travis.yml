@@ -11,3 +11,7 @@ script:
   - npm run build
   - npm run test
 
+before_install:
+  - "npm config set spin false"
+  - npm i -g now
+
