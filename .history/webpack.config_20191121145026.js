@@ -9,7 +9,7 @@ module.exports = {
   entry: './src/js/index.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'public')
+    path: path.resolve(__dirname, 'dist')
   },
   mode: devMode ? 'development' : 'production',
   module: {
@@ -110,7 +110,7 @@ module.exports = {
     })
   ],
   devServer: {
-    contentBase: './public',
+    contentBase: './dist',
     hot: true
   }
 }
